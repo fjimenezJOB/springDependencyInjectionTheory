@@ -1,0 +1,26 @@
+digraph "springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" { 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "org.springframework:spring-core:jar:4.3.14.RELEASE:compile" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "org.springframework:spring-context:jar:4.3.14.RELEASE:compile" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "org.springframework:spring-beans:jar:4.3.14.RELEASE:compile" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "org.springframework:spring-aop:jar:4.3.14.RELEASE:compile" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "org.springframework:spring-expression:jar:4.3.14.RELEASE:compile" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "cglib:cglib:jar:2.2:compile" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "org.slf4j:slf4j-api:jar:1.7.25:compile" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "org.slf4j:slf4j-log4j12:jar:1.7.25:compile" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "log4j:log4j:jar:1.2.16:runtime" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "org.aspectj:aspectjweaver:jar:1.6.11:compile" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "org.springframework:spring-test:jar:4.3.14.RELEASE:test" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "junit:junit:jar:4.12:test" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "pl.pragmatists:JUnitParams:jar:1.1.0:test" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "org.mockito:mockito-all:jar:1.9.5:test" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "info.cukes:cucumber-java:jar:1.2.4:test" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "info.cukes:cucumber-junit:jar:1.2.4:test" ; 
+	"springProject:PrivaliaSpringProject:jar:0.0.1-SNAPSHOT" -> "info.cukes:cucumber-spring:jar:1.2.4:test" ; 
+	"org.springframework:spring-core:jar:4.3.14.RELEASE:compile" -> "commons-logging:commons-logging:jar:1.2:compile" ; 
+	"cglib:cglib:jar:2.2:compile" -> "asm:asm:jar:3.1:compile" ; 
+	"junit:junit:jar:4.12:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"info.cukes:cucumber-java:jar:1.2.4:test" -> "info.cukes:cucumber-core:jar:1.2.4:test" ; 
+	"info.cukes:cucumber-core:jar:1.2.4:test" -> "info.cukes:cucumber-html:jar:0.2.3:test" ; 
+	"info.cukes:cucumber-core:jar:1.2.4:test" -> "info.cukes:cucumber-jvm-deps:jar:1.0.5:test" ; 
+	"info.cukes:cucumber-core:jar:1.2.4:test" -> "info.cukes:gherkin:jar:2.12.2:test" ; 
+ } 
