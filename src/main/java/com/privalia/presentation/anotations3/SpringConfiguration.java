@@ -9,6 +9,7 @@ public class SpringConfiguration {
 	@Bean(name = "helloWorld")
 	public HelloWorld helloWorld() {
 		return new HelloWorld();
+		
 	}
 
 }
