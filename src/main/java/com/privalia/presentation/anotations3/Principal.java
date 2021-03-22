@@ -10,7 +10,10 @@ public class Principal {
 		AbstractApplicationContext appContext = new AnnotationConfigApplicationContext(SpringConfiguration.class);
 
 		HelloWorld helloWorld = (HelloWorld) appContext.getBean("helloWorld");
+		HelloWorld helloWorld1 = (HelloWorld) appContext.getBean("helloWorld");
 		System.out.println(helloWorld.getHello());
+		System.out.println(helloWorld.hashCode());
+		System.out.println(helloWorld1.hashCode());
 
 		appContext.close();
 

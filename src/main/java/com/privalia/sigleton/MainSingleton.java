@@ -6,7 +6,6 @@ public class MainSingleton {
         Singleton s2 = Singleton.getInstance();
         System.out.println(s1.hashCode());
         System.out.println(s2.hashCode());
-        // Al devolver el mismo hash code significa que el metodo solo permite un solo thread a la vez
-
+        // Al devolver el mismo hash code significa las dos variables apuntan al mismo objeto
     }
 }
